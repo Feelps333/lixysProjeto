@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript">
+      window.onload = function menuMobile() {
+        document
+          .querySelector('.menuMobile')
+          .addEventListener('Click', function () {
+            if (
+              document.querySelector('.menu nav ul').style.display == 'flex'
+            ) {
+              document.querySelector('.menu nav ul').style.display = 'none'
+            } else {
+              document.querySelector('.menu nav ul').style.display = 'flex'
+            }
+          })
+      }
+    </script>
+    <title>Carros De Luxo</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <h1>Luxys</h1>
+        </div>
+        <div class="menu">
+          <nav>
+            <div onclick="menuMobile" class="menuMobile">
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+            </div>
+            <ul>
+              <li><a href="">Ferrari</a></li>
+              <li><a href="">bmw</a></li>
+              <li><a href="">audi</a></li>
+              <li><a href="">contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section id="banner">
+      <div class="colunn">
+        <div class="banner-top">
+          <h1>Teste de Titulo</h1>
+          <h3>Carros de Luxo 2022</h3>
+        </div>
+        <div class="banner-botton">
+          <div class="banners cor1">
+            <h1>Ferrari</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              consectetur, fugit est excepturi aliquid doloribus aliquam
+              molestiae. Sed, quisquam. Voluptates quasi voluptate recusandae
+              eligendi ut facilis, perspiciatis in. Sint, magnam?
+            </p>
+            <a href="">Sabia mais...</a>
+          </div>
+
+          <div class="banners cor2">
+            <h1>Bmw</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              consectetur, fugit est excepturi aliquid doloribus aliquam
+              molestiae. Sed, quisquam. Voluptates quasi voluptate recusandae
+              eligendi ut facilis, perspiciatis in. Sint, magnam?
+            </p>
+            <a href="">Sabia mais...</a>
+          </div>
+          <div class="banners cor3">
+            <h1>Mercedes</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              consectetur, fugit est excepturi aliquid doloribus aliquam
+              molestiae. Sed, quisquam. Voluptates quasi voluptate recusandae
+              eligendi ut facilis, perspiciatis in. Sint, magnam?
+            </p>
+            <a href="">Sabia mais...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--*********************** FIM BANNER ***************************-->
+    <!--*********************** INICIO MAIN ***************************-->
+    <section id="main">
+      <div class="container_main">
+        <section>
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">Latest News</div>
+            </div>
+          </div>
+          <div class="widget_body flex">
+            <article>
+              <a href="#">
+                <div class="news_data">
+                  <div class="news_posted_at">06 Jan 2022</div>
+                  <div class="news_comments">2</div>
+                </div>
+                <div class="news_thumbnail">
+                  <img src="img/astromartin.jpg" alt="" />
+                </div>
+                <div class="news_title">Astro Martin</div>
+                <div class="news_resume">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem vel, recusandae impedit commodi modi aut voluptatum
+                  nesciunt ea explicabo voluptatibus iste quam ut consequatur
+                  deleniti libero, quae deserunt non molestias.
+                </div>
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <div class="news_data">
+                  <div class="news_posted_at">06 Jan 2022</div>
+                  <div class="news_comments">2</div>
+                </div>
+                <div class="news_thumbnail">
+                  <img src="img/astromartin.jpg" alt="" />
+                </div>
+                <div class="news_title">Astro Martin</div>
+                <div class="news_resume">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem vel, recusandae impedit commodi modi aut voluptatum
+                  nesciunt ea explicabo voluptatibus iste quam ut consequatur
+                  deleniti libero, quae deserunt non molestias.
+                </div>
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <div class="news_data">
+                  <div class="news_posted_at">06 Jan 2022</div>
+                  <div class="news_comments">2</div>
+                </div>
+                <div class="news_thumbnail">
+                  <img src="img/astromartin.jpg" alt="" />
+                </div>
+                <div class="news_title">Astro Martin</div>
+                <div class="news_resume">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem vel, recusandae impedit commodi modi aut voluptatum
+                  nesciunt ea explicabo voluptatibus iste quam ut consequatur
+                  deleniti libero, quae deserunt non molestias.
+                </div>
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <div class="news_data">
+                  <div class="news_posted_at">06 Jan 2022</div>
+                  <div class="news_comments">2</div>
+                </div>
+                <div class="news_thumbnail">
+                  <img src="img/astromartin.jpg" alt="" />
+                </div>
+                <div class="news_title">Astro Martin</div>
+                <div class="news_resume">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem vel, recusandae impedit commodi modi aut voluptatum
+                  nesciunt ea explicabo voluptatibus iste quam ut consequatur
+                  deleniti libero, quae deserunt non molestias.
+                </div>
+              </a>
+            </article>
+          </div>
+        </section>
+        <aside>
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">Deparments</div>
+            </div>
+          </div>
+          <div class="widget_cards">
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+            <div class="cards"></div>
+          </div>
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">Make an Appointment</div>
+            </div>
+          </div>
+          <div class="widget_body">
+            <article>
+              <a href="#">
+                <div class="news_data"></div>
+                <div class="news_title">Astro Martin</div>
+                <div class="news_resume">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem vel, recusandae impedit commodi modi aut voluptatum
+                  nesciunt ea explicabo voluptatibus iste quam ut consequatur
+                  deleniti libero, quae deserunt non molestias.
+                </div>
+              </a>
+            </article>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!--*************** FIM MAIN **************************-->
+    <!--************* INICIO FOOTER ***********************-->
+    <footer id="footer">
+      <div class="container_footer colunn">
+        <div class="footer_menu">
+          <div class="fm_1">...</div>
+          <div class="fm_2">...</div>
+          <div class="fm_3">...</div>
+        </div>
+        <div class="footer_area">
+          <div class="footer_areaitem">
+            <div class="widget">
+              <div class="widget_title">
+                <div class="widget_title_text">Text footer</div>
+              </div>
+            </div>
+            <div class="widget_body">...</div>
+          </div>
+          <div class="footer_areaitem">
+            <div class="widget">
+              <div class="widget_title">
+                <div class="widget_title_text">Latest Pots</div>
+              </div>
+            </div>
+            <div class="widget_body">...</div>
+          </div>
+          <div class="footer_areaitem">
+            <div class="widget">
+              <div class="widget_title">
+                <div class="widget_title_text">Latest Tweets</div>
+              </div>
+            </div>
+            <div class="widget_body">...</div>
+          </div>
+        </div>
+        <div class="footer_copy">Copyrighr - Todos os direitos reservados</div>
+      </div>
+    </footer>
+  </body>
+</html>
